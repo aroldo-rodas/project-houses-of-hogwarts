@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: 'Mulish', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 15px  black;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+header img:hover {
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 50%;
+    transition: 1s;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.555);
+}
+
+section#hogwarts {
+    max-width: 750px;
+    margin: 100px auto 60px auto;
+}
+
+section#hogwarts h1 {
+    font-size: 4em;
+    font-family: var(--fonte1);
+    margin-bottom: 40px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+section#hogwarts p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    text-indent: 30px;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+section#hogwarts img {
+    width: 100%;
+}
+
+section#video {
+    position: relative;
+    margin: auto;
+    max-width: 750px;
+    height: 500px;
+    background-color: rgb(10, 10, 10);
+}
+
+div#caixa iframe {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 2%;
+    width: 95%;
+    height: 90%;
+
+}
+
+div#fundo {
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-family: var(--fonte1);
+    font-size: 2em;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+section.casas {
+    max-width: 750px;
+    margin: 100px auto 60px auto;
+}
+
+div#escudos {
+    max-width: 750px;
+    height: 500px;
+    background-image: url('../imagens/casa1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px black;
+    margin-bottom: 50px;
+}
+
+div#escudos2 {
+    max-width: 750px;
+    height: 550px;
+    background-image: url('../imagens/casa2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px black;
+    margin-bottom: 50px;
+}
+
+div#escudos3 {
+    max-width: 750px;
+    height: 550px;
+    background-image: url('../imagens/casa3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px black;
+    margin-bottom: 50px;
+}
+
+div#escudos4 {
+    max-width: 750px;
+    height: 550px;
+    background-image: url('../imagens/casa4.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px black;
+    margin-bottom: 50px;
+}
+
+section.casas p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    text-indent: 30px;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a::after {
+    content: ' \1F517';
+}
+
