@@ -52,7 +52,7 @@ section#hogwarts p {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    font-weight: lighter;
+    font-weight: normal;
     text-indent: 30px;
     line-height: 1.5em;
     margin-bottom: 40px;
@@ -146,7 +146,7 @@ section.casas p {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    font-weight: lighter;
+    font-weight: normal;
     text-indent: 30px;
     line-height: 1.5em;
     margin-bottom: 40px;
